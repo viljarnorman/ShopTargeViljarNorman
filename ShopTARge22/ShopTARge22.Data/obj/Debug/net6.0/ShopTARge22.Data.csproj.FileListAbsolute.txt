@@ -1,0 +1,17 @@
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/bin/Debug/net6.0/ShopTARge22.Data.deps.json
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/bin/Debug/net6.0/ShopTARge22.Data.runtimeconfig.json
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/bin/Debug/net6.0/ShopTARge22.Data.dll
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/bin/Debug/net6.0/ShopTARge22.Data.pdb
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/bin/Debug/net6.0/ShopTARge22.Core.dll
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/bin/Debug/net6.0/ShopTARge22.Core.pdb
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.csproj.AssemblyReference.cache
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.AssemblyInfoInputs.cache
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.AssemblyInfo.cs
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.csproj.CoreCompileInputs.cache
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.dll
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/refint/ShopTARge22.Data.dll
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.pdb
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARge22.Data.genruntimeconfig.cache
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ref/ShopTARge22.Data.dll
+/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/Debug/net6.0/ShopTARg.A9387D6A.Up2Date

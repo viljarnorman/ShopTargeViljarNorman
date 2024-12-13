@@ -1,0 +1,100 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9cfe328a-7845-478b-b440-4d9837faa2a8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accuweather.Locations" Version="1.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.12">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.12" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="Accuweather" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Core" Version="1.0.1" />
+    <PackageReference Include="Accuweather.Current" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Forecast" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Indices" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="MailKit" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.25" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="6.0.26" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="6.0.26" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="6.0.26" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Spaceships\" />
+    <None Remove="Models\Spaceships\" />
+    <None Remove="Models\RealEstates\" />
+    <None Remove="Views\RealEstates\" />
+    <None Remove="Models\Kindergartens\" />
+    <None Remove="Models\Kindergartens\.DS_Store" />
+    <None Remove="Models\Forecast\" />
+    <None Remove="Views\WeatherForecasts\" />
+    <None Remove="Views\Kindergartens\" />
+    <None Remove="Views\ChuckNorris\" />
+    <None Remove="Models\ChuckNorris\" />
+    <None Remove="Views\Emails\" />
+    <None Remove="Models\Emails\" />
+    <None Remove="Views\Accounts\" />
+    <None Remove="Models\Accounts\" />
+    <None Remove="Utilities\" />
+    <None Remove="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Spaceships\" />
+    <Folder Include="Models\Spaceships\" />
+    <Folder Include="Models\RealEstates\" />
+    <Folder Include="Views\RealEstates\" />
+    <Folder Include="Models\Kindergartens\" />
+    <Folder Include="Models\Forecast\" />
+    <Folder Include="Views\WeatherForecasts\" />
+    <Folder Include="Views\Kindergartens\" />
+    <Folder Include="Views\ChuckNorris\" />
+    <Folder Include="Models\ChuckNorris\" />
+    <Folder Include="Views\Emails\" />
+    <Folder Include="Models\Emails\" />
+    <Folder Include="Views\Accounts\" />
+    <Folder Include="Models\Accounts\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShopTARge22.Data\ShopTARge22.Data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopTARge22.Core\ShopTARge22.Core.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopTARge22.ApplicationServices\ShopTARge22.ApplicationServices.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopTARge22.RealEstateTest\ShopTARge22.RealEstateTest.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20231019063739_Kinder.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Views\Shared\style.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>

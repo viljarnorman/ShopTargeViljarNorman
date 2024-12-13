@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="Accuweather" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Core" Version="1.0.1" />
+    <PackageReference Include="Accuweather.Current" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Indices" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Locations" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Forecast" Version="1.0.0" />
+    <PackageReference Include="MailKit" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShopTARge22.Core\ShopTARge22.Core.csproj" />
+    <ProjectReference Include="..\ShopTARge22.Data\ShopTARge22.Data.csproj" />
+  </ItemGroup>
+</Project>

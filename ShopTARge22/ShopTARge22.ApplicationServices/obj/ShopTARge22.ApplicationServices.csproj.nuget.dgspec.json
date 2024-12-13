@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj": {}
+  },
+  "projects": {
+    "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj",
+        "projectName": "ShopTARge22.ApplicationServices",
+        "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj",
+        "packagesPath": "/Users/viljarnorman/.nuget/packages/",
+        "outputPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.ApplicationServices/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viljarnorman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj": {
+                "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj"
+              },
+              "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj": {
+                "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Accuweather": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Accuweather.Current": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Forecast": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Indices": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Locations": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj",
+        "projectName": "ShopTARge22.Core",
+        "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj",
+        "packagesPath": "/Users/viljarnorman/.nuget/packages/",
+        "outputPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viljarnorman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Accuweather": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Accuweather.Current": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Forecast": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Indices": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Locations": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
+        "projectName": "ShopTARge22.Data",
+        "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
+        "packagesPath": "/Users/viljarnorman/.nuget/packages/",
+        "outputPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viljarnorman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj": {
+                "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Accuweather": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Accuweather.Current": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Forecast": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Indices": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Accuweather.Locations": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
