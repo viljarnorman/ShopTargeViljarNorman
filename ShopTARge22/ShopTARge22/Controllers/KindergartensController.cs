@@ -5,8 +5,9 @@ using ShopTARge22.Core.Domain;
 using ShopTARge22.Core.Dto;
 using ShopTARge22.Core.ServiceInterface;
 using ShopTARge22.Data;
-//using ShopTARge22.Migrations;
+using ShopTARge22.Migrations;
 using ShopTARge22.Models.Kindergartens;
+using ShopTARge22.Models.Spaceships;
 
 namespace ShopTARge22.Controllers
 {
@@ -63,6 +64,15 @@ namespace ShopTARge22.Controllers
                 Teacher = vm.Teacher,
                 CreatedAt = vm.CreatedAt,
                 UpdatedAt = vm.UpdatedAt,
+                Files = vm.Files,
+                Image = vm.Image
+                    .Select(x => new FileToDatabaseDto
+                    {
+                        Id = x.ImageId,
+                        ImageData = x.ImageData,
+                        ImageTitle = x.ImageTitle,
+                        KindergartenId = x.KindergartenId,
+                    }).ToArray()
             };
 
             var result = await _kindergartenServices.Create(dto);
@@ -94,6 +104,7 @@ namespace ShopTARge22.Controllers
             vm.Teacher = kindergarten.Teacher;
             vm.CreatedAt = kindergarten.CreatedAt;
             vm.UpdatedAt = kindergarten.UpdatedAt;
+            
 
 
             return View("CreateUpdate", vm);
@@ -111,7 +122,17 @@ namespace ShopTARge22.Controllers
                 Teacher = vm.Teacher,
                 CreatedAt = vm.CreatedAt,
                 UpdatedAt = vm.UpdatedAt,
-        };
+                Files = vm.Files,
+                Image = vm.Image
+                    .Select(x => new FileToDatabaseDto
+                    {
+                        Id = x.ImageId,
+                        ImageData = x.ImageData,
+                        ImageTitle = x.ImageTitle,
+                        KindergartenId = x.KindergartenId,
+                    }).ToArray()
+
+            };
 
             var result = await _kindergartenServices.Update(dto);
 
@@ -132,6 +153,7 @@ namespace ShopTARge22.Controllers
             {
                 return NotFound();
             }
+            
 
             var vm = new KindergartenDetailsViewModel();
 

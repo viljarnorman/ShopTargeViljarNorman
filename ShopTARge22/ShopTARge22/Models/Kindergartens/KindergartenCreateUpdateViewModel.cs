@@ -1,4 +1,6 @@
-﻿namespace ShopTARge22.Models.Kindergartens
+﻿using ShopTARge22.Models.RealEstates;
+
+namespace ShopTARge22.Models.Kindergartens
 {
     public class KindergartenCreateUpdateViewModel
     {
@@ -10,5 +12,8 @@
 
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+        public List<IFormFile> Files { get; set; }
+        public List<KindergartenImageViewModel> Image { get; set; } = new List<KindergartenImageViewModel>();
     }
 }

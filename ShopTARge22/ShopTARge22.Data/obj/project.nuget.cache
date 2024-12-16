@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T4qOykdpdDQ=",
+  "dgSpecHash": "MNgDXDtogaI=",
   "success": true,
-  "projectFilePath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
+  "projectFilePath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
   "expectedPackageFiles": [
     "/Users/viljarnorman/.nuget/packages/accuweather/1.0.0/accuweather.1.0.0.nupkg.sha512",
     "/Users/viljarnorman/.nuget/packages/accuweather.core/1.0.1/accuweather.core.1.0.1.nupkg.sha512",

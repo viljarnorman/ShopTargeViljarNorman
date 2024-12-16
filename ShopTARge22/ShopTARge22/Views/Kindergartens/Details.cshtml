@@ -31,6 +31,11 @@
                     @Html.DisplayFor(model => model.Teacher)
                 </div>
 
+                @foreach (var images in Model.Image)
+                {
+                    <partial name="_Images" model="images" />
+                }
+
             </dl>
             <a asp-action="Index" asp-controller="kindergartens" class="btn btn-danger">Back</a>
         </div>

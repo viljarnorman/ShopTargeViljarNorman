@@ -10,5 +10,7 @@ namespace ShopTARge22.Core.ServiceInterface
         Task<FileToApi> RemoveImageFromApi(FileToApiDto dto);
         void UploadFilesToDatabase(RealEstateDto dto, RealEstate domain);
         Task<FileToDatabase> RemoveFilesFromDatabase(FileToDatabaseDto dto);
+        void UploadFilesToDatabase(KindergartenDto dto, Kindergarten domain);
+        Task<FileToDatabase> RemoveKindergartenFilesFromDatabase(FileToDatabaseDto dto);
     }
 }

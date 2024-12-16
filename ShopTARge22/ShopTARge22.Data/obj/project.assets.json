@@ -4284,11 +4284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
+      "projectUniqueName": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
       "projectName": "ShopTARge22.Data",
-      "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
+      "projectPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj",
       "packagesPath": "/Users/viljarnorman/.nuget/packages/",
-      "outputPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/obj/",
+      "outputPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/viljarnorman/.nuget/NuGet/NuGet.Config"
@@ -4304,8 +4304,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj": {
-              "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj"
+            "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj": {
+              "projectPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj"
             }
           }
         }

@@ -14606,11 +14606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22/ShopTARge22.csproj",
+      "projectUniqueName": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22/ShopTARge22.csproj",
       "projectName": "ShopTARge22",
-      "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22/ShopTARge22.csproj",
+      "projectPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22/ShopTARge22.csproj",
       "packagesPath": "/Users/viljarnorman/.nuget/packages/",
-      "outputPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22/obj/",
+      "outputPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/viljarnorman/.nuget/NuGet/NuGet.Config"
@@ -14626,17 +14626,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj": {
-              "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj"
+            "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj": {
+              "projectPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.ApplicationServices/ShopTARge22.ApplicationServices.csproj"
             },
-            "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj": {
-              "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj"
+            "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj": {
+              "projectPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Core/ShopTARge22.Core.csproj"
             },
-            "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj": {
-              "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj"
+            "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj": {
+              "projectPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.Data/ShopTARge22.Data.csproj"
             },
-            "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.RealEstateTest/ShopTARge22.RealEstateTest.csproj": {
-              "projectPath": "/Users/viljarnorman/Documents/TTHK /ShopTARge22/ShopTARge22/ShopTARge22.RealEstateTest/ShopTARge22.RealEstateTest.csproj"
+            "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.RealEstateTest/ShopTARge22.RealEstateTest.csproj": {
+              "projectPath": "/Users/viljarnorman/Documents/TTHK /Programmeerimine/ShopTargeViljarNorman/ShopTARge22/ShopTARge22.RealEstateTest/ShopTARge22.RealEstateTest.csproj"
             }
           }
         }

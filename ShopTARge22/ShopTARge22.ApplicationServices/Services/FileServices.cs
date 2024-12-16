@@ -134,5 +134,45 @@ namespace ShopTARge22.ApplicationServices.Services
             return null;
         }
 
+        public void UploadFilesToDatabase(KindergartenDto dto, Kindergarten domain)
+        {
+
+            if (dto.Files != null && dto.Files.Count > 0)
+            {
+
+                foreach (var image in dto.Files)
+                {
+                    using (var target = new MemoryStream())
+                    {
+                        FileToDatabase files = new FileToDatabase()
+                        {
+                            Id = Guid.NewGuid(),
+                            ImageTitle = image.FileName,
+                            KindergartenId = domain.Id
+                        };
+
+                        image.CopyTo(target);
+                        files.ImageData = target.ToArray();
+
+                        _context.FileToDatabases.Add(files);
+                    }
+                }
+            }
+        }
+
+        public async Task<FileToDatabase> RemoveKindergartenFilesFromDatabase(FileToDatabaseDto dto)
+        {
+            var imageId = await _context.FileToDatabases
+                .FirstOrDefaultAsync(x => x.Id == dto.Id);
+
+            if (imageId != null)
+            {
+                _context.FileToDatabases.Remove(imageId);
+                await _context.SaveChangesAsync();
+            }
+
+            return null;
+        }
+
     }
 }

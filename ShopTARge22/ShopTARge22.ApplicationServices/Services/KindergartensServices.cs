@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml;
 using Microsoft.EntityFrameworkCore;
 using ShopTARge22.Core.Domain;
 using ShopTARge22.Core.Dto;
@@ -35,6 +36,11 @@ namespace ShopTARge22.ApplicationServices.Services
             kindergarten.CreatedAt = DateTime.Now;
             kindergarten.UpdatedAt = DateTime.Now;
 
+            if (dto.Files != null)
+            {
+                _fileServices.UploadFilesToDatabase(dto, kindergarten);
+            }
+
 
             await _context.Kindergartens.AddAsync(kindergarten);
             await _context.SaveChangesAsync();
@@ -61,6 +67,11 @@ namespace ShopTARge22.ApplicationServices.Services
             kindergarten.Teacher = dto.Teacher;
             kindergarten.CreatedAt = DateTime.Now;
             kindergarten.UpdatedAt = DateTime.Now;
+
+            if (dto.Files != null)
+            {
+                _fileServices.UploadFilesToDatabase(dto, kindergarten);
+            }
 
             _context.Kindergartens.Update(kindergarten);
             await _context.SaveChangesAsync();
